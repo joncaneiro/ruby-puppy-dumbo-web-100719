@@ -16,11 +16,11 @@ class Dog
   end
   
   
-  def Dog.clear_all
+  def self.clear_all
     @@all.clear
   end
   
-  def Dog.print_all
+  def self.print_all
     @@all.each {|dog_name| puts dog_name.name}
   end
   #binding.pry
