@@ -22,8 +22,8 @@ class Dog
   
   def self.print_all
     @@all.each {|dog_name| puts dog_name.name}
-    binding.pry
   end
+  binding.pry
   
   def save 
     @@all << self
